@@ -7,10 +7,13 @@ import { styles } from '../styles';
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
-
+  
   const toggleResume = () => {
-    const resumeUrl = '/Resume.pdf';
-    window.open(resumeUrl);
+    // UPDATED: Added '/olimar-portfolio' to the path
+    const resumeUrl = '/olimar-portfolio/Resume.pdf';
+    
+    // Added '_blank' to ensure it opens in a new tab
+    window.open(resumeUrl, '_blank');
   };
 
   useEffect(() => {
