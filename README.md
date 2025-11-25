@@ -60,7 +60,7 @@ git clone https://github.com/ramilmendoza/olimar-portfolio.git
 2️⃣ Navigate to project directory:
 
 ```bash
-cd Portfolio-Website
+cd olimar-portfolio
 ```
 
 3️⃣ Install dependencies:
@@ -77,7 +77,7 @@ npm run dev
 
 5️⃣ Open in browser:
 
-- Visit [http://localhost:3000](http://localhost:3000)
+- Visit [http://localhost:5173](http://localhost:5173) 
 
 ## 💻 Tech Stack
 
